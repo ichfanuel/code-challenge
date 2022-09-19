@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import GLOBAL_CONSTANTS from 'Constants/GlobalConstants'
 
-class ErrorPage extends Component {
+class NoRoutePage extends Component {
   render() {
     return (
       <div>
@@ -11,4 +11,4 @@ class ErrorPage extends Component {
   }
 }
 
-export default ErrorPage
+export default NoRoutePage

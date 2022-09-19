@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 
 import GeneratePasswordPage from 'Components/GeneratePasswordPage'
 import HomePage from 'Components/HomePage'
-import ErrorPage from 'HelperComponents/ErrorPage'
+import NoRoutePage from 'HelperComponents/NoRoutePage'
 
 import './App.css'
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route exacth path="/" element={<HomePage />} />
         <Route exact path="/generatePasswordPage" element={<GeneratePasswordPage />} />
-        <Route path="*" element={<ErrorPage />} />
+        <Route path="*" element={<NoRoutePage />} />
       </Routes>
     </div>
   )
